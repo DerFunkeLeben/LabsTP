@@ -1,0 +1,11 @@
+C:\Users\Egor\Desktop\LabsTP\Labs\bin\Debug\netcoreapp2.1\Labs.deps.json
+C:\Users\Egor\Desktop\LabsTP\Labs\bin\Debug\netcoreapp2.1\Labs.runtimeconfig.json
+C:\Users\Egor\Desktop\LabsTP\Labs\bin\Debug\netcoreapp2.1\Labs.runtimeconfig.dev.json
+C:\Users\Egor\Desktop\LabsTP\Labs\bin\Debug\netcoreapp2.1\Labs.dll
+C:\Users\Egor\Desktop\LabsTP\Labs\bin\Debug\netcoreapp2.1\Labs.pdb
+C:\Users\Egor\Desktop\LabsTP\Labs\obj\Debug\netcoreapp2.1\Labs.csprojAssemblyReference.cache
+C:\Users\Egor\Desktop\LabsTP\Labs\obj\Debug\netcoreapp2.1\Labs.csproj.CoreCompileInputs.cache
+C:\Users\Egor\Desktop\LabsTP\Labs\obj\Debug\netcoreapp2.1\Labs.AssemblyInfoInputs.cache
+C:\Users\Egor\Desktop\LabsTP\Labs\obj\Debug\netcoreapp2.1\Labs.AssemblyInfo.cs
+C:\Users\Egor\Desktop\LabsTP\Labs\obj\Debug\netcoreapp2.1\Labs.dll
+C:\Users\Egor\Desktop\LabsTP\Labs\obj\Debug\netcoreapp2.1\Labs.pdb
