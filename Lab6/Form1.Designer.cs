@@ -134,11 +134,11 @@ namespace Lab6
             this.button2.TabIndex = 3;
             this.button2.Text = "Show graph";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button1_Click);
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(7, 517);
+            this.button1.Location = new System.Drawing.Point(6, 517);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(126, 32);
             this.button1.TabIndex = 3;
@@ -211,7 +211,7 @@ namespace Lab6
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.Info;
+            this.panel1.BackColor = System.Drawing.SystemColors.Window;
             this.panel1.Location = new System.Drawing.Point(290, 38);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(653, 555);
@@ -231,6 +231,8 @@ namespace Lab6
             this.PathsTable.RowTemplate.Height = 25;
             this.PathsTable.Size = new System.Drawing.Size(246, 555);
             this.PathsTable.TabIndex = 3;
+            this.PathsTable.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.PathsTable_CellClick);
+           
             // 
             // Path
             // 

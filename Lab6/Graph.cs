@@ -71,8 +71,15 @@ namespace Lab6
 	class GraphMatrix : Graph
 	{
 		public int[,] AdjacencyMatrix = new int[N, N];
-		public GraphMatrix(string verts, string edges) : base(verts, edges) { }
+		char[] perVertexes;
+		public GraphMatrix(string verts, string edges) : base(verts, edges) {
+			perVertexes = GetPeriphericVertexes();
+		}
 
+		public char[] PerVertexes
+        {
+			get { return perVertexes; }
+        }
 		public void Clear()
 		{
 			for (int i = 0; i < N; i++)
@@ -117,8 +124,7 @@ namespace Lab6
 		public override string[] FindAllPaths(char start, char finish, int[,] adj = null)
 		{
 			string[] allPaths = base.FindAllPaths(start, finish, AdjacencyMatrix);
-			char[] PerVertexes = GetPeriphericVertexes();
-			return FindValidPaths(allPaths, PerVertexes);
+			return FindValidPaths(allPaths, perVertexes);
 		}
 
 		private int[,] GetDistMatrix()

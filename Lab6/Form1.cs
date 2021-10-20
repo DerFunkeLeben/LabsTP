@@ -12,6 +12,10 @@ namespace Lab6
 {
     public partial class Form1 : Form
     {
+        Visualization vis;
+        GraphMatrix graph;
+
+
         public Form1()
         {
             InitializeComponent();
@@ -49,12 +53,29 @@ namespace Lab6
             char start = startVertex.Text[0];
             char end = endVertex.Text[0];
 
-            GraphMatrix graph = new GraphMatrix(verts, edges);
+            graph = new GraphMatrix(verts, edges);
 
             string[] Paths = graph.FindAllPaths(start, end);
 
             foreach (string path in Paths)
                 PathsTable.Rows.Add(path);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if(graph == null)
+                graph = new GraphMatrix(vertexesData.Text, edgesData.Text);
+            vis = new Visualization(this.panel1, vertexesData.Text, edgesData.Text, graph!=null ? graph.PerVertexes : null);
+        }
+
+        private void PathsTable_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex != -1 && vis != null)
+            {
+                string path = PathsTable.Rows[e.RowIndex].Cells["Path"].Value.ToString();
+                vis.HighlightPath(path);
+            }
+                
         }
     }
 }
