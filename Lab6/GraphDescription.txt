@@ -1,5 +1,5 @@
-A B C D E F G H;AC AD
-DE
-CB CE CH
-EH 
-GH GF FE
+A B C D E F;AB AC
+CD
+BD BF
+DF
+EF ED

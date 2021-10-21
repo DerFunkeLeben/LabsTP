@@ -77,17 +77,16 @@ namespace Lab6
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
-            // 
             // 
             // groupBox1
             // 
@@ -115,7 +114,7 @@ namespace Lab6
             this.endVertex.Name = "endVertex";
             this.endVertex.Size = new System.Drawing.Size(35, 23);
             this.endVertex.TabIndex = 4;
-            this.endVertex.Text = "H";
+            this.endVertex.Text = "F";
             this.endVertex.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // startVertex
@@ -124,7 +123,7 @@ namespace Lab6
             this.startVertex.Name = "startVertex";
             this.startVertex.Size = new System.Drawing.Size(35, 23);
             this.startVertex.TabIndex = 4;
-            this.startVertex.Text = "G";
+            this.startVertex.Text = "D";
             this.startVertex.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button2
@@ -154,7 +153,7 @@ namespace Lab6
             this.vertexesData.Name = "vertexesData";
             this.vertexesData.Size = new System.Drawing.Size(258, 166);
             this.vertexesData.TabIndex = 2;
-            this.vertexesData.Text = "A B C D E F G H";
+            this.vertexesData.Text = "A B C D E F";
             // 
             // edgesData
             // 
@@ -163,7 +162,7 @@ namespace Lab6
             this.edgesData.Name = "edgesData";
             this.edgesData.Size = new System.Drawing.Size(258, 166);
             this.edgesData.TabIndex = 2;
-            this.edgesData.Text = "AC AD \r\nDE\r\nCB CE CH\r\nEH EG\r\nGH GF";
+            this.edgesData.Text = "AB AC\r\nCD\r\nBD BF\r\nDF\r\nEF ED";
             // 
             // label3
             // 
