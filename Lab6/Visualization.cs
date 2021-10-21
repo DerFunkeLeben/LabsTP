@@ -10,7 +10,6 @@ namespace Lab6
         double x;
         double y;
         string name;
-        Color clr;
         public Point(double x, double y)
         {
             this.x = x;
@@ -21,12 +20,6 @@ namespace Lab6
         {
             get { return name; }
             set { name = value; }
-        }
-
-        public Color Clr
-        {
-            get { return Clr; }
-            set { Clr = value; }
         }
 
         public double X

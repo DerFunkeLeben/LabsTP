@@ -111,8 +111,6 @@ namespace Lab6
 
 			foreach (var edge in edges)
 			{
-				if (edge.Length != 2)
-					throw new InvalidOperationException("Error 406: Inappropriate edges' construction");
 				int start = edge[0] - ASCII_SHIFT;
 				int finish = edge[1] - ASCII_SHIFT;
 
@@ -125,6 +123,7 @@ namespace Lab6
 		{
 			string[] allPaths = base.FindAllPaths(start, finish, AdjacencyMatrix);
 			return FindValidPaths(allPaths, perVertexes);
+			//return allPaths;
 		}
 
 		private int[,] GetDistMatrix()
