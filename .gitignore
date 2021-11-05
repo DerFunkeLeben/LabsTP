@@ -2,7 +2,7 @@
 *.pdb
 bin
 obj
-/.vs
-/.vs/
-/.vscode
-/.vscode/
+.vs
+.vs/
+.vscode
+.vscode/
