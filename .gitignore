@@ -1,6 +1,8 @@
 *.exe
 *.pdb
-*/bin
-*/bin/
+bin
+obj
 /.vs
 /.vs/
+/.vscode
+/.vscode/
