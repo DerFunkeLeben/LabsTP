@@ -693,9 +693,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\mpei\\LabsTP\\Labs\\Labs.csproj",
-      "projectName": "Labs",
-      "projectPath": "D:\\mpei\\LabsTP\\Labs\\Labs.csproj",
+      "projectUniqueName": "D:\\mpei\\LabsTP\\Labs\\Lab5.csproj",
+      "projectName": "Lab5",
+      "projectPath": "D:\\mpei\\LabsTP\\Labs\\Lab5.csproj",
       "packagesPath": "C:\\Users\\Egor\\.nuget\\packages\\",
       "outputPath": "D:\\mpei\\LabsTP\\Labs\\obj\\",
       "projectStyle": "PackageReference",

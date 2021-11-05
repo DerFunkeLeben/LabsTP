@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5eCjUVL08o83brXi/SMCN6Q8AjOhFJyBuyEEvN1xV7vFQxKnFHaT3i99ALJCbxtkKLwbXj8aFOBtGbRzUU8uoA==",
+  "dgSpecHash": "WXyklQA1ZUB/PudOpqH11FCHXc6Y03yCQh+xRZ8Ugk7o0CWHTm1j2nDPoesMo1yrl6Axloe1LrfLSUrrE3D9rQ==",
   "success": true,
-  "projectFilePath": "D:\\mpei\\LabsTP\\Labs\\Labs.csproj",
+  "projectFilePath": "D:\\mpei\\LabsTP\\Labs\\Lab5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Egor\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Users\\Egor\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",

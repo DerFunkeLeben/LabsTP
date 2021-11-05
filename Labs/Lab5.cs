@@ -2,7 +2,7 @@
 using System.Diagnostics.Tracing;
 using System.Threading;
 
-namespace Labs
+namespace Lab5
 {
     public class Queue
     {
