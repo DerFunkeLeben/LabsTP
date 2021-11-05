@@ -2,6 +2,7 @@
 *.pdb
 bin
 obj
+*.pdf
 .vs
 .vs/
 .vscode

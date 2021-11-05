@@ -16,24 +16,28 @@ public class Menu {
     }
 
     public boolean Launch(int option) {
-        switch (option) {
-        case 1:
-            this.Init();
-            break;
-        case 2:
-            this.Print();
-            break;
-        case 3:
-            this.Add();
-            break;
-        case 4:
-            this.Remove();
-            break;
-        case 5:
-            this.Reschedule();
-            break;
-        default:
-            return false;
+        try {
+            switch (option) {
+            case 1:
+                this.Init();
+                break;
+            case 2:
+                this.Print();
+                break;
+            case 3:
+                this.Add();
+                break;
+            case 4:
+                this.Remove();
+                break;
+            case 5:
+                this.Reschedule();
+                break;
+            default:
+                return false;
+            }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
         return true;
     }
